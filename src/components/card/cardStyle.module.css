@@ -7,12 +7,12 @@
 }
 
 .title{
-    color:  hsl(0, 0%, 95%);
+    color: var(--Very_light_gray);
     font-size: 30px;
 }
 
 .text{
-    color: hsla(0, 0%, 100%, 0.75);
+    color: var(--Transparent_white);
     font-size: 15px;
     
 }
@@ -35,27 +35,27 @@
 
 
 .card--sedans{
-    background-color: hsl(31, 77%, 52%);
+    background-color: var(--Bright-orange);
 }
 
 .card--suvs{
-    background-color: hsl(184, 100%, 22%);
+    background-color: var(--Dark_cyan);
 }
 
 .card--luxury{
-    background-color: hsl(179, 100%, 13%);
+    background-color: var(--Very_dark_cyan);
 }
 
 .card--sedans .button{
-    color: hsl(31, 77%, 52%);
+    color: var(--Bright-orange);
 }
 
 .card--suvs .button{
-    color: hsl(184, 100%, 22%);
+    color: var(--Dark_cyan);
 }
 
 .card--luxury .button{
-    color: hsl(179, 100%, 13%);
+    color: var(--Very_dark_cyan);
 }
 
 @media screen and (hover:hover) {
