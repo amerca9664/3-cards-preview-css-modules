@@ -5,7 +5,7 @@ const Card = ({ car, image, typeCar, children }) => {
 		<div className={`${styles.card}  ${styles[car]}`}>
 			<img
 				className={styles.image}
-				src={`public/assets/images/${image}`}
+				src={`/assets/images/${image}`}
 				alt='sedans icon'
 			/>
 			<h2 className={styles.title}>{typeCar}</h2>
